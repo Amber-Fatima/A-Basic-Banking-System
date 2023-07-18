@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+}
+
+i:hover{
+    transform: rotate(360deg);
+    transition: 1s all;
+  }
+i{
+    transition: 1s all;
+  }
+img{
+    height: 500px;
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    background-color: #333;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    
+    top: 0;
+    
+    margin-bottom: 50px;
+}
+li h3{
+    color: #fff;
+    font-size: x-large;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px ;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+a:hover{
+    background-color: #fff;
+    color: #333;
+
+}
+.right{
+    text-align: right;
+}
+.footer{
+    margin-top: 30px;
+    
+    width: 100%;
+    padding: 20px 8%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.footer a{
+    display:  block;
+}
+.col2{
+    flex-grow: 2;
+}
+/* customer */
+.table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #333;
+    border-collapse: collapse;
+    width: 50%;
+  }
+th, td {
+    background-color: #fff;
+    padding: 10px 10px;
+  }
+th:hover{
+    background-color: #333;
+    color: #fff;
+    
+
+}
+tr:hover td{
+    background-color: rgb(176, 107, 107);
+}
+#form input{
+    float: right;
+}
+/* form */
+label{
+    color: #fff;
+}
